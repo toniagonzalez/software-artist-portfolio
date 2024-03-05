@@ -9,12 +9,15 @@ type Widget = {
 
 type WrapperTagProps = Widget & {
   children: React.ReactNode;
+  hasBackground?: boolean;
+  backgroundKey?: string;
   containerClass?: string;
 };
 
 type BackgroundProps = {
   children?: React.ReactNode;
   hasBackground?: boolean;
+  backgroundKey?: string;
 };
 
 type Header = {
@@ -236,18 +239,13 @@ type WindowSize = {
 type HeroProps = {
   title?: string | ReactElement;
   subtitle?: string | ReactElement;
+  subtitle1?: string | ReactElement;
+  subtitle2?: string | ReactElement;
   tagline?: string;
   callToAction?: CallToActionType;
   callToAction2?: CallToActionType;
   image?: Image;
-};
-
-type FAQsProps = Widget & {
-  header?: Header;
-  items?: Array<Item>;
-  columns?: number;
-  tabs?: Array<Tab>;
-  callToAction?: CallToActionType;
+  backgroundKey?: string;
 };
 
 type CollapseProps = {
@@ -280,7 +278,11 @@ type ContentProps = Widget & {
   header?: Header;
   content?: string;
   items?: Array<Item>;
+  images: Array<SlideImage>;
   image?: Image;
+  image2?: Image;
+  image3?: Image;
+  images?: Array<Image>;
   isReversed?: boolean;
   isAfterContent?: boolean;
 };
@@ -321,24 +323,12 @@ type PricingProps = Widget & {
   prices: Array<Price>;
 };
 
-type ComparisonProps = Widget & {
-  header?: Header;
-  columns: Array<Column>;
-};
-
 type StatsProps = Widget & {
   items: Array<Item>;
 };
 
 type SocialProofProps = Widget & {
   images: Array<Image>;
-};
-
-type ContactProps = Widget & {
-  header?: Header;
-  content?: string;
-  items?: Array<Item>;
-  form: FormProps;
 };
 
 type FooterProps = {
