@@ -22,7 +22,7 @@ const CTA = ({ callToAction, containerClass, linkClass, iconClass }: LinkOrButto
               {text}
             </Link>
           ) : (
-            <Link className={twMerge('inline-flex items-center justify-center w-full sm:mb-0 ', linkClass)} href={href}>
+            <Link className={twMerge('inline-flex items-center justify-center w-full sm:mb-0', linkClass)} href={href}>
               {Icon && (
                 <Icon className={twMerge(`w-5 h-5 ${text ? 'mr-1 -ml-1.5 rtl:ml-1 rtl:-mr-1.5' : ''}`, iconClass)} />
               )}
