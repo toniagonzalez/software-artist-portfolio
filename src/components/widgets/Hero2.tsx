@@ -6,9 +6,9 @@ const Hero2 = ({ title, subtitle, subtitle1, subtitle2, image, backgroundKey }: 
   const id = 'heroTwo';
   return (
     <WidgetWrapper id={id ? id : ''} hasBackground={false} backgroundKey={backgroundKey} containerClass={''}>
-      <section className="mt-[-50px] bg-zinc-50 bg-opacity-90 dark:bg-slate-800 dark:bg-opacity-75" id="heroTwo">
+      <section className="mt-[-50px] bg-zinc-50 bg-opacity-90 dark:bg-slate-800 dark:bg-opacity-80" id="heroTwo">
         <div className="mx-auto max-w-7xl px-4  pt-[72px] sm:px-6 md:flex md:h-screen 2xl:h-auto">
-          <div className="block py-12 text-center md:flex md:py-12 md:text-left lg:py-16">
+          <div className="block py-12 text-left md:flex md:py-12 md:text-left lg:py-16">
             <div className="mx-auto flex max-w-5xl basis-[56%] items-center">
               <div className="max-w-3xl pb-12 pr-0 md:py-0 md:pr-8 md:pb-0 lg:pr-16">
                 {title && (
@@ -17,12 +17,12 @@ const Hero2 = ({ title, subtitle, subtitle1, subtitle2, image, backgroundKey }: 
                   </h1>
                 )}
                 <div className="mx-auto max-w-3xl">
-                  {subtitle && <p className="mb-8 text-xl font-normal text-gray-600 dark:text-slate-400">{subtitle}</p>}
+                  {subtitle && <p className="mb-8 text-xl font-normal text-gray-600 dark:text-slate-300">{subtitle}</p>}
                   {subtitle1 && (
-                    <p className="mb-8 text-xl font-normal text-gray-600 dark:text-slate-400">{subtitle1}</p>
+                    <p className="mb-8 text-xl font-normal text-gray-600 dark:text-slate-300">{subtitle1}</p>
                   )}
                   {subtitle2 && (
-                    <p className="mb-8 text-xl font-normal text-gray-600 dark:text-slate-400">{subtitle2}</p>
+                    <p className="mb-8 text-xl font-normal text-gray-600 dark:text-slate-300">{subtitle2}</p>
                   )}
                 </div>
               </div>
