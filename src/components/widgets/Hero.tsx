@@ -6,7 +6,7 @@ const Hero = ({ title, subtitle, tagline, callToAction, callToAction2, image, ba
   const id = 'heroOne';
   return (
     <WidgetWrapper id={id ? id : ''} hasBackground={true} backgroundKey={backgroundKey} containerClass={''}>
-      <section id="heroOne" className="bg-primary-50 bg-opacity-75 dark:bg-slate-800 dark:bg-opacity-75">
+      <section id="heroOne" className="bg-primary-50 bg-opacity-90 dark:bg-slate-800 dark:bg-opacity-80">
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <div className="py-12 md:py-20">
             <div className="mx-auto max-w-4xl pb-10 text-center md:pb-16">
@@ -21,7 +21,7 @@ const Hero = ({ title, subtitle, tagline, callToAction, callToAction2, image, ba
                 </h1>
               )}
               <div className="mx-auto max-w-3xl">
-                {subtitle && <p className="mb-6 text-xl font-normal text-gray-600 dark:text-slate-400">{subtitle}</p>}
+                {subtitle && <p className="mb-6 text-xl font-normal text-gray-800 dark:text-slate-200">{subtitle}</p>}
                 <div className="flex max-w-none flex-col flex-nowrap gap-4 px-4 sm:flex-row sm:justify-center">
                   {callToAction && <CTA callToAction={callToAction} linkClass="btn" />}
                   {callToAction2 && <CTA callToAction={callToAction2} linkClass="btn" />}

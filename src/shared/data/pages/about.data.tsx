@@ -1,10 +1,10 @@
-import { ContentProps, HeroProps } from '~/shared/types';
-import hikingPic from '~/assets/images/hiking.jpg';
+import { HeroProps } from '~/shared/types';
+import toniaPic from '~/assets/images/toniaPhoto.jpeg';
 
 // Hero data on about page *******************
 export const heroAbout: HeroProps = {
   title: 'A little more about me',
-  subtitle: `Every day I'm trying to be more brave, less anxious, more open and more curious.`,
+  subtitle: `Every day I'm trying to be more brave, less anxious, more open and more curious!`,
   backgroundKey: 'about',
 };
 
@@ -15,7 +15,7 @@ export const hero2About: HeroProps = {
   subtitle2: `Curiosity has always been the fuel for my analytical and creative interests. I have a bachelor's degrees in Studio Art and in Arabic. I've also earned certification in TEFL and a techdegree focused on Front End & Full Stack JavaScript. There is so much more to explore and I look forward to seeing where my curiosity will continue to lead me!`,
   tagline: 'Tonia Gonzalez',
   image: {
-    src: hikingPic,
+    src: toniaPic,
     alt: 'Hero TailNext',
   },
 };
