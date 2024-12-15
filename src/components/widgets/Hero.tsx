@@ -6,7 +6,7 @@ const Hero = ({ title, subtitle, tagline, callToAction, callToAction2, image, ba
   const id = 'heroOne';
   return (
     <WidgetWrapper id={id ? id : ''} hasBackground={true} backgroundKey={backgroundKey} containerClass={''}>
-      <section id="heroOne" className="bg-primary-50 bg-opacity-90 dark:bg-slate-800 dark:bg-opacity-80">
+      <section id="heroOne" className="bg-primary-50 bg-opacity-90 dark:bg-slate-800 dark:bg-opacity-80 border-primary-50 rounded-xl">
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <div className="py-12 md:py-20">
             <div className="mx-auto max-w-4xl pb-10 text-center md:pb-16">
@@ -23,9 +23,9 @@ const Hero = ({ title, subtitle, tagline, callToAction, callToAction2, image, ba
               <div className="mx-auto max-w-3xl">
                 {subtitle && <p className="mb-6 text-xl font-normal text-gray-800 dark:text-slate-200">{subtitle}</p>}
                 <div className="flex max-w-none flex-col flex-nowrap gap-4 px-4 sm:flex-row sm:justify-center">
-                  {callToAction && <CTA callToAction={callToAction} linkClass="btn bg-cyan-500 hover:bg-cyan-500 text-white font-bold border-cyan-700 hover:border-cyan-500 dark:bg-cyan-500 dark:hover:bg-cyan-400 dark:text-white  dark:border-cyan-700 dark:hover:border-cyan-500 py-2 px-4 border-b-4 rounded-lg" />}
+                  {callToAction && <CTA callToAction={callToAction} linkClass="btn bg-cyan-500 hover:bg-cyan-700 text-white font-bold border-cyan-500 hover:border-cyan-700 dark:bg-cyan-500 dark:hover:bg-cyan-400 dark:text-white  dark:border-cyan-500 dark:hover:border-cyan-500 py-2 px-4 rounded-lg" />}
                   {callToAction2 && <CTA callToAction={callToAction2} 
-                  linkClass="btn bg-violet-500 hover:bg-violet-500 border-b-4 border-violet-800 hover:border-violet-500 text-white dark:bg-violet-500 dark:hover:bg-violet-500 dark:border-b-4 dark:border-violet-800 dark:hover:border-violet-500 dark:text-white font-bold px-4 py-2 rounded-lg" />
+                  linkClass="btn bg-violet-500 hover:bg-violet-800  border-violet-500 hover:border-violet-500 text-white dark:bg-violet-500 dark:hover:bg-violet-500 dark:border-b-4 dark:border-violet-800 dark:hover:border-violet-800 dark:text-white font-bold px-4 py-2 rounded-lg" />
                   }
                 </div>
               </div>

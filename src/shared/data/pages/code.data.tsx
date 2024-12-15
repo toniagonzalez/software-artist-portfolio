@@ -23,7 +23,7 @@ export const featuresCode: FeaturesProps = {
     {
       title: 'Web platform w/Next.js',
       description:
-        'Developing SASS platform for Bounit.ai which using Next.js, Prisma, and deployed via Vercel',
+        'Developing SASS platform for Bounit.ai which Next.js, Prisma, and deployed via Vercel',
       icon: IconComponents,
     },
     {
@@ -78,11 +78,6 @@ export const contentServicesOne: ContentProps = {
     {
       title: 'Web Developer (Freelance)',
       description: 'Build branded layouts and custom redesigns',
-      icon: IconChevronsRight,
-    },
-    {
-      title: 'AWS: Cloud Practioner',
-      description: '',
       icon: IconChevronsRight,
     },
   ],
