@@ -9,7 +9,7 @@ import laptopImg from '~/assets/images/pexels-junior-teixeira-2047905.jpeg';
 export const heroCode: HeroProps = {
   title: 'Fullstack Software Engineer',
   subtitle:
-    "I am a Software Engineer based in Kalamazoo, Michigan. I'm passionate about architecting and building innovative user-informed features. I have an insatiable curiosity that drives me to learn how things work.",
+    "I'm a Software Engineer based in Kalamazoo, Michigan. I am passionate about architecting and building innovative user-informed features. I have an insatiable curiosity for understanding how things work, because a well defined problem is the foundation for a well executed solution. I'm committed to collaboration with people from all walks of life, and this fuels my drive to build tools and features for all users.",
   backgroundKey: 'code',
 };
 
@@ -23,7 +23,7 @@ export const featuresCode: FeaturesProps = {
     {
       title: 'Web platform w/Next.js',
       description:
-        'Developing SASS platform for Bounit.ai which Next.js, Prisma, and deployed via Vercel',
+        'Developing ui for Bounti.ai SASS platform using Next.js, Prisma, and Vercel. Also maintain API integrations with Python and Rust backend services.',
       icon: IconComponents,
     },
     {
@@ -34,7 +34,7 @@ export const featuresCode: FeaturesProps = {
     },
     {
       title: 'Java GraphQL Endpoint',
-      description: 'Helped design and build a Java graphql endpoint with a postgresql.',
+      description: 'Helped design and build a Java graphql endpoint with a postgresql db in support of a high throughput microservice.',
       icon: IconComponents,
     },
     {
